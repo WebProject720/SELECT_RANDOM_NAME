@@ -69,3 +69,17 @@ main {
         rotate: 360deg;
     }
 }
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    color: white;
+    text-decoration:none;
+}
