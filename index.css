@@ -17,6 +17,7 @@ main {
 .image {
     border-radius: 50%;
     width: 80vw;
+    margin-top: 15px;
 }
 .arrow {
     width: 80px;
