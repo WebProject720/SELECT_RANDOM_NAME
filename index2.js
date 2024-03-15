@@ -10,7 +10,6 @@ function rotateImage(imageId, totalRotations, totalTimeInSeconds) {
             if (!startTime) startTime = timestamp;
             const elapsedTime = (timestamp - startTime) / 1000; // Elapsed time in seconds
             const currentRotation = (elapsedTime / timePerRotation) * 360 % 360; // Current rotation angle
-
             image.style.transform = `rotate(${currentRotation}deg)`;
 
             if (elapsedTime < totalTimeInSeconds) {
