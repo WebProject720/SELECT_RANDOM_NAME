@@ -58,6 +58,7 @@ main {
 }
 
 footer{
+    margin-top: 50vh;
     background-color: black;
     color: white;
     padding: 5px;
